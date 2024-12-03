@@ -1,0 +1,18 @@
+.header {
+    background-image: url('/Assets/Images/Object.png');
+    background-repeat: no-repeat;
+    height: 145vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}
+
+.header nav {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
