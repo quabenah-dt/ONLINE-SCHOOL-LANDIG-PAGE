@@ -1,24 +1,24 @@
 .header {
     background-image: url('/Assets/Images/Object.png');
     background-repeat: no-repeat;
-    height: 145vh;
+    height: 160vh;
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover; 
 }
 
-.header nav {
-    max-width: 1440px;
+.nav {
+    max-width: 90rem;
     margin: 0 auto;
-    padding: 0 100px;
+    padding: 2.188rem 6.25rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.header nav ul {
+.nav ul {
     display: flex;
-    gap: 53px;
+    gap: 3.313rem;
     list-style: none;
 
     & li a {
