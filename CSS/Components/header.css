@@ -28,3 +28,19 @@
     }
 }
 
+.heading {
+    text-align: center;
+    font-size: var(--fs-xxxl);
+    font-weight: 700;
+    margin-top: 80px;
+}
+
+.heading-content ul {
+    display: flex;  
+    justify-content: center;
+    list-style: none;
+    gap: 3.688rem;
+    margin-top: -1.25rem;
+    font-size: var(--fs-sm);
+}
+
