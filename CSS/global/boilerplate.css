@@ -1,0 +1,30 @@
+:root {
+
+    --purple: hsl(274, 100%, 72%);
+    --cyprus: hsl(214, 71%, 9%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --gray: hsl(0, 0%, 59%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans 3';
+    margin: 0;
+    /* background-color: var(--cyprus); */
+}
+
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
