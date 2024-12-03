@@ -46,3 +46,16 @@
   font-weight: 900;
   src: url('/Assets/Fonts/source-sans-3-v15-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
+
+
+:root {
+
+  --fs-xs: 0.75rem;
+  --fs-xxs:0.875rem;
+  --fs-sm: 1rem;
+  --fs-md: 1.125rem;
+  --fs-lg: 1.375rem;
+  --fs-xl: 2rem;
+  --fs-xxl: 3.75rem;
+  --fs-xxxl: 7.5rem;
+}
