@@ -14,7 +14,8 @@
 body {
     font-family: 'Source Sans 3';
     margin: 0;
-    /* background-color: var(--cyprus); */
+    background-color: var(--cyprus);
+    color: white;
 }
 
 h1,
