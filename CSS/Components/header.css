@@ -16,3 +16,15 @@
     align-items: center;
 }
 
+.header nav ul {
+    display: flex;
+    gap: 53px;
+    list-style: none;
+
+    & li a {
+        text-decoration: none;
+        color: var(--white);
+        font-size: 12px;
+    }
+}
+
