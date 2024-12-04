@@ -1,0 +1,70 @@
+.tutorials-content {
+    color: var(--black);
+    /* max-width: 1228px; */
+    padding: 87px 106px 87px 106px;
+    gap: 10px;
+}
+
+.tutorials-content h2 {
+    text-align: center;
+    margin-bottom: 75px;
+    font-size: var(--fs-xl);
+    font-weight: 300;
+}
+
+
+.tuts-container {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* padding: 0 6.25rem; */
+    /* max-width: 1228px; */
+    /* gap: 10px; */
+}
+
+.tuts-container h3 {
+    margin-top: 18px;
+    font-weight: 700px;
+}
+
+.tuts .desc {
+    font-size: var(--fs-xxs);
+    font-weight: 400;
+    line-height: 24px;
+    width: 250px;
+    color: var(--gray);
+}
+
+.tutor {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    margin-top: 13px;
+}
+
+.tutor img {
+    width: 30px;
+    height: 30px;
+}
+
+.tutor p {
+    color: var(--purple);
+    font-size: var(--fs-xxs);
+    font-weight: 600;
+}
+
+.rating {
+    display: flex;
+    gap: 70px;
+    margin-top: 14px;
+}
+
+.rating img {
+    height: 15px;
+}
+
+.rating p {
+    color: var(--purple);
+    font-size: var(--fs-xxs);
+    font-weight: 600; 
+}
