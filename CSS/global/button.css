@@ -14,3 +14,22 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.btn-membership {
+    background-color: var(--purple);
+    position: absolute;
+    border: none;
+    width: 190px;
+    height: 44px;
+    border-radius: 30px;
+    color: var(--white);
+    font-size: var(--fs-xxs);
+    font-weight: 600;
+    cursor: pointer;
+    padding: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: -10px;
+}
+
+
