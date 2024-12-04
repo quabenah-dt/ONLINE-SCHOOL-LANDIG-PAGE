@@ -6,4 +6,25 @@
 .testimonial{
     display: flex;
     justify-content: center;
+    align-items: center;
+    padding: 108px 237px 0 260px;
+    gap: 53px;
+}
+
+.quote {
+    font-size: var(--fs-mmd);
+    font-weight: 400;
+    width: 750px;
+}
+
+.testiomonial-name {
+    margin-top: 1.375rem;
+    font-size: var(--fs-mmd);
+    font-weight: 700;
+}
+
+.testiomonial-job {
+    font-size: var(--fs-mmd);
+    font-weight: 400;
+    font-style: italic;
 }
