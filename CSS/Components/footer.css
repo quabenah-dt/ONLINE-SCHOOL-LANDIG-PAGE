@@ -1,0 +1,28 @@
+.footer-container {
+    background-color: var(--cyprus);
+    height: 249px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 94px;
+    margin: 0 auto;
+    padding-left: 165px;
+    padding-right: 240px;
+}
+
+
+.social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer-container p {
+    text-align: center;
+    margin-top: 80px;
+    color: var(--gray);
+    font-size: var(--fs-xs);
+    font-weight: 400;
+}

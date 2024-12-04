@@ -1,0 +1,35 @@
+.FAQ {
+    color: var(--black);
+    margin-left: 249px;
+    margin-right: 271px;
+    margin-top: 67px;
+}
+
+.FAQ h1 {
+    font-size: var(--fs-xxl);
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+.FAQ-details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    margin-bottom: 70px;
+}
+
+.faqs h3 {
+    font-size: var(--fs-sm);
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.faqs p {
+    font-size: var(--fs-xxs);
+    font-weight: 400;
+    width: 350px;
+    color: var(--gray);
+    line-height: 24px;
+}
