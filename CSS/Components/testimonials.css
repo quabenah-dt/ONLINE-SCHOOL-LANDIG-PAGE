@@ -1,0 +1,9 @@
+.testiomonial-section{
+    background-color: var(--purple);
+    height: 392px;
+}
+
+.testimonial{
+    display: flex;
+    justify-content: center;
+}
