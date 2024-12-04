@@ -24,7 +24,7 @@
     & li a {
         text-decoration: none;
         color: var(--white);
-        font-size: var(--fs-xs);
+        /* font-size: var(--fs-xs); */
     }
 }
 
@@ -32,7 +32,7 @@
     text-align: center;
     font-size: var(--fs-xxxl);
     font-weight: 700;
-    margin-top: 80px;
+    margin-top: 5rem;
 }
 
 .heading-content ul {
@@ -42,5 +42,40 @@
     gap: 3.688rem;
     margin-top: -1.25rem;
     font-size: var(--fs-sm);
+}
+
+
+.learn {
+    text-align: center;
+    margin-top: 168px;
+    font-size: var(--fs-xl);
+    font-weight: 700;
+}
+
+span {
+    color: var(--purple);
+}
+
+.tutors {
+    display: flex;
+    justify-content: center;
+    gap: 8.125rem; 
+    margin-top: 3.75rem;
+}
+
+.tutors p {
+    text-align: center;
+    width: 9.375rem;
+}
+
+.name {
+    margin-top: 0.625rem;
+    font-size: var(--fs-md);
+    font-weight: 900;
+}
+
+.title {
+    font-style: italic;
+    font-weight: 400;
 }
 
